@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <myheader></myheader>
-    <img alt="Vue logo" src="./LOGO/J7LOGO.PNG">
+    <img alt="Vue logo" src="https://us-west-1-02890046-view.menlosecurity.com/c/0/i/aHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMjY4NTMzL3BleGVscy1waG90by0yNjg1MzMuanBlZz9jcz1zcmdiJmRsPXBleGVscy1waXhhYmF5LTI2ODUzMy5qcGcmZm09anBn">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
      <myfooter></myfooter>
   </div>
