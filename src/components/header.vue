@@ -1,5 +1,5 @@
 <template>
-  <whoview />
+  <whoview canview="Banana" />
   <mymode />
 </template>
 

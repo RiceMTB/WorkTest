@@ -1,13 +1,29 @@
 <template>
-  <div class="whosee">THIS is who  sddd jcan see the record.</div>
+  <div class="whosee" >
+    {{canview}}
+  </div>
 </template>
 
 <script>
-export default {};
+export default { 
+  props:['canview'],
+  computed:{
+    setcolor:function(){ 
+      if(canview=="banana"){
+        return "red"
+      }
+      else if('canview'=="apple"){ 
+        return "#B22222"
+      }
+    }
+  }
+};
 </script>
 
 <style>
 .whosee{
-  color:red
+  background: green;
+  text-align:center;
+  
 }
 </style>

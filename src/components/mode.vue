@@ -8,6 +8,8 @@ export default {};
 
 <style>
 .mymode{
-  color:Blue
+  color:Blue;
+  background:cyan;
+  font-size: 5em;
 }
 </style>
