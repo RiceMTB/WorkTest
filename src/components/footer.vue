@@ -1,6 +1,6 @@
 <template>
   
-    <whoview />
+    <whoview canview ="Banana" />
   
 </template>
 

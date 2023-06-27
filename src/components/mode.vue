@@ -11,5 +11,6 @@ export default {};
   color:Blue;
   background:cyan;
   font-size: 1em;
+  text-align:center;
 }
 </style>
