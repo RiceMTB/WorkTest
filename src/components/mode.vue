@@ -10,6 +10,6 @@ export default {};
 .mymode{
   color:Blue;
   background:cyan;
-  font-size: 5em;
+  font-size: 1em;
 }
 </style>
