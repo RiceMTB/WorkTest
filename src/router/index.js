@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import { createWebHistory, createRouter } from 'vue-router/dist/vue-router.esm-bund';
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 
