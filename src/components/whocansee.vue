@@ -1,5 +1,5 @@
 <template>
-  <div class="whosee" >
+  <div :style="{'background':setcolor}" >
     {{canview}}
   </div>
 </template>
@@ -8,22 +8,18 @@
 export default { 
   props:['canview'],
   computed:{
-    setcolor:function(){ 
-      if(canview=="banana"){
-        return "red"
+    setcolor(){ 
+      let myColor= ''
+      if(this.canview=="Banana"){
+        myColor= "yellow"
       }
-      else if('canview'=="apple"){ 
-        return "#B22222"
+      else if(this.canview=="apple"){ 
+        myColor= "red"
       }
+      return myColor
     }
   }
 };
 </script>
 
-<style>
-.whosee{
-  background: green;
-  text-align:center;
-  
-}
-</style>
+
