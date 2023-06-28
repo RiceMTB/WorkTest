@@ -29,11 +29,11 @@
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.1s;
   }
 
   .button:hover {
-    background:;
+    background: BlanchedAlmond ;  
     color: sienna;
   }
 </style>
