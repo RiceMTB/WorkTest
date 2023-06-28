@@ -1,19 +1,24 @@
 <template>
   <div id="app">
     <myheader></myheader>
-    <HelloWorld />
+     <nav>
+      <router-link to="/">Home</router-link> | 
+      <router-link to="/about">About</router-link> | 
+      <router-link to="/contact">Contact</router-link>
+    </nav>
+    <main>
+      <router-view />
+    </main>
     <myfooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import myfooter from './components/footer.vue'
 import myheader from './components/header.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     myfooter,
     myheader
   }
