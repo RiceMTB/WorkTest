@@ -13,7 +13,7 @@ export default {
       if(this.canview=="Banana"){
         myColor= "yellow"
       }
-      else if(this.canview=="apple"){ 
+      else if(this.canview=="Apple"){ 
         myColor= "red"
       }
       return myColor

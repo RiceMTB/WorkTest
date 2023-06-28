@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <btn v-on:click="testClick()">Test</btn>
-    <btn>Test2</btn> 
+    <btn href="https://www.google.com/">  Test2</btn> 
     <btn>Test3</btn>
 
   </div>
